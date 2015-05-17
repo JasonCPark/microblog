@@ -1,6 +1,3 @@
-# Ruby on Rails Tutorial: sample application
+# My Personal Experimental Rails Application
 
-This is the sample application for the
-[*Ruby on Rails Tutorial:
-Learn Web Development with Rails*](http://www.railstutorial.org/)
-by [Michael Hartl](http://www.michaelhartl.com/).
+This is my test website for learning and experimenting with Ruby on Rails.
