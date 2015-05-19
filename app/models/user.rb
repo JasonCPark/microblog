@@ -39,4 +39,9 @@ class User < ActiveRecord::Base
   def forget
     update_attribute(:remember_digest, nil)
   end
+  
+  # Defines a proto-feed.
+  def feed
+    Micropost.where("user_id = ?", id)
+  end
 end
